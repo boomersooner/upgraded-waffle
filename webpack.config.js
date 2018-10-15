@@ -1,7 +1,8 @@
 module.exports = {
     entry: "./src/app.js",
     output: {
-      filename: "dist/bundle.js"
+      filename: "bundle.js",
+      publicPath: 'http://localhost:8080/dist/'
     }, 
     watch: true,
     // Automatically reload the page when compilation is done.
